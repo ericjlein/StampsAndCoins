@@ -19,11 +19,6 @@ class Stamp:
         
 
 
-    def listAttributes():
-            for key in stampAttributes:
-                 print(key.uppercase() + country)
-
-
 class Coin:
     def __init__(self, country=None, region=None, year:int=None, faceValue:float=None, marketValue:float=None, image:Image=None):
         self.country = country
